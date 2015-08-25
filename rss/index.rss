@@ -1,0 +1,84 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>业精于勤荒于嬉</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 18:34:03 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>欢迎使用 Ghost 博客系统</title><description>&lt;p&gt;Yeah，博客上线了！这篇文章的目的是向你介绍 Ghost 编辑器并帮你快速上手。通过 &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt; 链接就可以登录系统后台管理你的博客内容了。当你进入后台，你就能看到左侧文章列表处列出的这篇文章，右侧就是这篇文章的预览效果。点击预览栏右上角的铅笔图标就能进入内容编辑页面。 &lt;/p&gt;
+
+&lt;h2 id=""&gt;快速入门&lt;/h2&gt;
+
+&lt;p&gt;Ghost 使用 Markdown 语法书写内容。简单来说，Markdown 就是一种简化的书写格式！&lt;/p&gt;
+
+&lt;p&gt;用 Markdown 语法写作是很容易的。在编辑界面的左侧就是你写作的地方。在你认为需要的时候，可以使用以下这些语法来格式化你的内容。例如下面这个无序列表：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Item number one&lt;/li&gt;
+&lt;li&gt;Item number two
+&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A final item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;还可以是有序列表：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Remember to buy some milk&lt;/li&gt;&lt;/ol&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">1ff7e494-6af2-40e5-a098-039f9f3c2055</guid><category>系统简介</category><dc:creator>Kucci Hao</dc:creator><pubDate>Tue, 25 Aug 2015 17:40:40 GMT</pubDate><content:encoded>&lt;p&gt;Yeah，博客上线了！这篇文章的目的是向你介绍 Ghost 编辑器并帮你快速上手。通过 &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt; 链接就可以登录系统后台管理你的博客内容了。当你进入后台，你就能看到左侧文章列表处列出的这篇文章，右侧就是这篇文章的预览效果。点击预览栏右上角的铅笔图标就能进入内容编辑页面。 &lt;/p&gt;
+
+&lt;h2 id=""&gt;快速入门&lt;/h2&gt;
+
+&lt;p&gt;Ghost 使用 Markdown 语法书写内容。简单来说，Markdown 就是一种简化的书写格式！&lt;/p&gt;
+
+&lt;p&gt;用 Markdown 语法写作是很容易的。在编辑界面的左侧就是你写作的地方。在你认为需要的时候，可以使用以下这些语法来格式化你的内容。例如下面这个无序列表：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Item number one&lt;/li&gt;
+&lt;li&gt;Item number two
+&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A final item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;还可以是有序列表：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
+&lt;li&gt;Drink the milk  &lt;/li&gt;
+&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=""&gt;链接&lt;/h3&gt;
+
+&lt;p&gt;如果要链接其它页面，可以直接把页面的 URL 粘贴过来，例如 &lt;a href="http://www.ghostchina.com"&gt;http://www.ghostchina.com&lt;/a&gt; - 会被自动识别为链接。但是，如果你想自定义链接文本，可以像这样： &lt;a href="http://www.ghostchina.com"&gt;Ghost 中文网&lt;/a&gt;。很简单吧！&lt;/p&gt;
+
+&lt;h3 id=""&gt;图片&lt;/h3&gt;
+
+&lt;p&gt;插入图片也没问题！前提是你事先知道图片的 URL，然后像下面这样：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://static.ghostchina.com/image/3/fe/34a9831916be9db1381ecb320491e.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
+
+&lt;p&gt;如果图片在本地的硬盘里怎么办？也很简单！像下面这样书写就能为图片预留一个位置，然后你可以继续写作，回头再通过拖拽的方式把图片上传到服务器上。&lt;/p&gt;
+
+&lt;h3 id=""&gt;引用&lt;/h3&gt;
+
+&lt;p&gt;有些时候我们需要引用别人说的话，可以这样：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wisdomous - it's definitely a word.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=""&gt;代码&lt;/h3&gt;
+
+&lt;p&gt;或许你是个码农，需要贴一些代码到文章里，可以通过两个引号（Tab 键上面的那个键）加入行内代码 &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;。如果需要加入大段的代码，可以在代码前加 4 个空格缩进，这就是 Markdown 的语法。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.awesome-thing {
+    display: block;
+    width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=""&gt;分割线&lt;/h3&gt;
+
+&lt;p&gt;在任一新行输入 3 个或更多的短横线（减号）就是一条分隔线了。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=""&gt;高级用法&lt;/h3&gt;
+
+&lt;p&gt;Markdown 还有一个特别用法，就是在你需要的时候可以直接书写 HTML 代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;input type="text" placeholder="这是个输入框！"&gt;&lt;/p&gt;
+
+&lt;p&gt;只要掌握了上面的这些介绍，你就已经入门了！继续写作吧！&lt;/p&gt;</content:encoded></item></channel></rss>
