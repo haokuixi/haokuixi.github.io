@@ -1,84 +1,85 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>业精于勤荒于嬉</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 18:34:03 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>欢迎使用 Ghost 博客系统</title><description>&lt;p&gt;Yeah，博客上线了！这篇文章的目的是向你介绍 Ghost 编辑器并帮你快速上手。通过 &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt; 链接就可以登录系统后台管理你的博客内容了。当你进入后台，你就能看到左侧文章列表处列出的这篇文章，右侧就是这篇文章的预览效果。点击预览栏右上角的铅笔图标就能进入内容编辑页面。 &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>业精于勤荒于嬉</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 25 Aug 2015 20:09:04 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>what does the "+" or "@" mark means when running 'ls -al' on Mac OS X</title><description>&lt;p&gt;In Mac OS X, run 'ls -al' gives me something like this.&lt;/p&gt;
 
-&lt;h2 id=""&gt;快速入门&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public
+drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites
+drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup
+drwxr-xr-x@ 36 smcho  staff    1224 Sep  4 22:51 bin&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/-what-does-the-or-mark-means-when-running-ls-al-on-mac-os-x/</link><guid isPermaLink="false">b8911f7c-4079-41ab-b30d-2c97917867ab</guid><category>macos</category><dc:creator>Kucci Hao</dc:creator><pubDate>Tue, 25 Aug 2015 19:55:03 GMT</pubDate><content:encoded>&lt;p&gt;In Mac OS X, run 'ls -al' gives me something like this.&lt;/p&gt;
 
-&lt;p&gt;Ghost 使用 Markdown 语法书写内容。简单来说，Markdown 就是一种简化的书写格式！&lt;/p&gt;
-
-&lt;p&gt;用 Markdown 语法写作是很容易的。在编辑界面的左侧就是你写作的地方。在你认为需要的时候，可以使用以下这些语法来格式化你的内容。例如下面这个无序列表：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;还可以是有序列表：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk&lt;/li&gt;&lt;/ol&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">1ff7e494-6af2-40e5-a098-039f9f3c2055</guid><category>系统简介</category><dc:creator>Kucci Hao</dc:creator><pubDate>Tue, 25 Aug 2015 17:40:40 GMT</pubDate><content:encoded>&lt;p&gt;Yeah，博客上线了！这篇文章的目的是向你介绍 Ghost 编辑器并帮你快速上手。通过 &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt; 链接就可以登录系统后台管理你的博客内容了。当你进入后台，你就能看到左侧文章列表处列出的这篇文章，右侧就是这篇文章的预览效果。点击预览栏右上角的铅笔图标就能进入内容编辑页面。 &lt;/p&gt;
-
-&lt;h2 id=""&gt;快速入门&lt;/h2&gt;
-
-&lt;p&gt;Ghost 使用 Markdown 语法书写内容。简单来说，Markdown 就是一种简化的书写格式！&lt;/p&gt;
-
-&lt;p&gt;用 Markdown 语法写作是很容易的。在编辑界面的左侧就是你写作的地方。在你认为需要的时候，可以使用以下这些语法来格式化你的内容。例如下面这个无序列表：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;还可以是有序列表：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=""&gt;链接&lt;/h3&gt;
-
-&lt;p&gt;如果要链接其它页面，可以直接把页面的 URL 粘贴过来，例如 &lt;a href="http://www.ghostchina.com"&gt;http://www.ghostchina.com&lt;/a&gt; - 会被自动识别为链接。但是，如果你想自定义链接文本，可以像这样： &lt;a href="http://www.ghostchina.com"&gt;Ghost 中文网&lt;/a&gt;。很简单吧！&lt;/p&gt;
-
-&lt;h3 id=""&gt;图片&lt;/h3&gt;
-
-&lt;p&gt;插入图片也没问题！前提是你事先知道图片的 URL，然后像下面这样：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://static.ghostchina.com/image/3/fe/34a9831916be9db1381ecb320491e.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
-
-&lt;p&gt;如果图片在本地的硬盘里怎么办？也很简单！像下面这样书写就能为图片预留一个位置，然后你可以继续写作，回头再通过拖拽的方式把图片上传到服务器上。&lt;/p&gt;
-
-&lt;h3 id=""&gt;引用&lt;/h3&gt;
-
-&lt;p&gt;有些时候我们需要引用别人说的话，可以这样：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wisdomous - it's definitely a word.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=""&gt;代码&lt;/h3&gt;
-
-&lt;p&gt;或许你是个码农，需要贴一些代码到文章里，可以通过两个引号（Tab 键上面的那个键）加入行内代码 &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;。如果需要加入大段的代码，可以在代码前加 4 个空格缩进，这就是 Markdown 的语法。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.awesome-thing {
-    display: block;
-    width: 100%;
-}
+&lt;pre&gt;&lt;code&gt;drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public
+drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites
+drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup
+drwxr-xr-x@ 36 smcho  staff    1224 Sep  4 22:51 bin
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=""&gt;分割线&lt;/h3&gt;
+&lt;p&gt;What's the + or @ at the end of the first column means? &lt;br&gt;
+Is this unique to Mac, or common in UNIX? &lt;br&gt;
+&lt;strong&gt;ADDED&lt;/strong&gt;
+After Michael Mrozek's answer, I ran 'ls -ale' to get the following.&lt;/p&gt;
 
-&lt;p&gt;在任一新行输入 3 个或更多的短横线（减号）就是一条分隔线了。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;drwx------+ 66 smcho  staff    2244 Aug 30 13:40 Library
+ 0: group:com.apple.sharepoint.group.3 allow search
+ 1: group:everyone deny delete
+drwxr-xr-x   3 smcho  staff     102 Sep  4 15:01 Mail
+drwx------+ 13 smcho  staff     442 Aug 28 17:55 Movies
+ 0: group:everyone deny delete
+drwx------+  6 smcho  staff     204 Jul  9 09:37 Music
+ 0: group:everyone deny delete
+drwx------+ 11 smcho  staff     374 Aug 28 16:55 Pictures
+ 0: group:everyone deny delete
+drwxr-xr-x   3 smcho  staff     102 Mar 18 15:43 Projects
+drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public
+ 0: group:everyone deny delete
+drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites
+ 0: group:everyone deny delete
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What those appended messages mean? Why do I have them for some of the files? I don't remember doing anything particular for them.&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h3 id=""&gt;高级用法&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;@&lt;/code&gt; suffix is unique to Mac OS and it means the file has extended attributes. You can use the &lt;code&gt;xattr&lt;/code&gt; command-line utility to view and modify them:&lt;/p&gt;
 
-&lt;p&gt;Markdown 还有一个特别用法，就是在你需要的时候可以直接书写 HTML 代码。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;xattr --list filename
+xattr --set propname propvalue filename
+xattr --delete propname filename
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;input type="text" placeholder="这是个输入框！"&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;+&lt;/code&gt; suffix means the file has an access control list, and is common in any *nix that supports ACLs. Giving &lt;code&gt;ls&lt;/code&gt; the &lt;code&gt;-e&lt;/code&gt; flag will make it show the associated ACLs after the file, and &lt;code&gt;chmod&lt;/code&gt; can be used to modify then. Most of this is from the &lt;code&gt;chmod&lt;/code&gt; man page:&lt;/p&gt;
 
-&lt;p&gt;只要掌握了上面的这些介绍，你就已经入门了！继续写作吧！&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;You add an ACL with &lt;code&gt;chmod +a "type:name flag permission,..."&lt;/code&gt;, and remove it with &lt;code&gt;chmod -a&lt;/code&gt;. The argument to &lt;code&gt;chmod&lt;/code&gt; is fairly complicated:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;type&lt;/strong&gt; is either &lt;code&gt;user&lt;/code&gt; or &lt;code&gt;group&lt;/code&gt;, to clarify if name is referring to a username or a group name. If name is unambiguous, you can omit the type&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt; is the username or group the ACL applies to&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;flag&lt;/strong&gt; is allow if this ACL entry is granting a permission, or deny if it's denying a permission&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;permission&lt;/strong&gt; is the actual permission being modified; you can list as many as you like, comma-separated
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;delete&lt;/strong&gt; -- Allow the file/directory to be deleted&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;readattr&lt;/strong&gt; -- Read basic attributes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;writeattr&lt;/strong&gt; -- Write basic attributes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;readextattr&lt;/strong&gt; -- Read extended attributes (using xattr, from above)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;writeextattr&lt;/strong&gt; -- Write extended attributes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;readsecurity&lt;/strong&gt; -- Read ACL info&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;writesecurity&lt;/strong&gt; -- Write ACL info&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;chown&lt;/strong&gt; -- Change owner&lt;/li&gt;
+&lt;li&gt;Directory-specific permissions
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;list&lt;/strong&gt; -- Show the files/folders in the directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;search&lt;/strong&gt; -- Find a file/folder in the directory by name&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;add&lt;em&gt;file&lt;/em&gt;&lt;/strong&gt; -- Create a new file in the directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;addsubdirectory&lt;/strong&gt; -- Create a new directory in the directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;delete_child&lt;/strong&gt; -- Remove a file/directory in the directory&lt;/li&gt;
+&lt;li&gt;Inheritance-control
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;file&lt;em&gt;inherit&lt;/em&gt;&lt;/strong&gt; -- ACLs on the directory are inherited by files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;directoryinherit&lt;/strong&gt; -- ACLs on the directory are inherited by subdirectories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;limit&lt;em&gt;inherit&lt;/em&gt;&lt;/strong&gt; -- Stops ACLs inherited by this directory from being inherited by subdirectories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;onlyinherit&lt;/strong&gt; -- Inherited by all newly created items but ignored&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;File-specific permissions
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;read&lt;/strong&gt; -- Open the file for reading&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;write&lt;/strong&gt; -- Open the file for writing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;append&lt;/strong&gt; -- Open the file for appending&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;execute&lt;/strong&gt; -- Run the file&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In your particular example, most of the ACL entries are &lt;code&gt;group:everyone deny delete&lt;/code&gt;. That is, all users in the &lt;code&gt;everyone&lt;/code&gt; group (which is naturally everyone) are denied the permission to delete the folder. I believe, although I can't find any documentation about it, that these are default ACLs to stop you from removing essential root folders -- somebody correct this if that's not the case. The only other entry is &lt;code&gt;group:com.apple.sharepoint.group.3&lt;/code&gt; allow search, which allows Directory Services to search for files by name in the &lt;code&gt;/Library&lt;/code&gt; folder&lt;/p&gt;
+
+&lt;p&gt;整理自：
+&lt;a href="http://unix.stackexchange.com/questions/1646/or-mark-after-running-ls-al"&gt;+ or @ mark after running 'ls -al' | Unix &amp;amp; Linux Stack Exchange&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

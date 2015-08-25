@@ -1,0 +1,222 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>what does the "+" or "@" mark(special mark) means when running 'ls -al' on Mac OS X</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=13ba76be03">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="业精于勤荒于嬉">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="what does the &quot;+&quot; or &quot;@&quot; mark(special mark) means when running 'ls -al' on Mac OS X">
+    <meta property="og:description" content="In Mac OS X, run 'ls -al' gives me something like this. drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup...">
+    <meta property="og:url" content="http://localhost:2368/-what-does-the-or-mark-means-when-running-ls-al-on-mac-os-x/">
+    <meta property="article:published_time" content="2015-08-25T19:55:03.160Z">
+    <meta property="article:modified_time" content="2015-08-25T20:00:49.162Z">
+    <meta property="article:tag" content="macos">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="what does the &quot;+&quot; or &quot;@&quot; mark(special mark) means when running 'ls -al' on Mac OS X">
+    <meta name="twitter:description" content="In Mac OS X, run 'ls -al' gives me something like this. drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup...">
+    <meta name="twitter:url" content="http://localhost:2368/-what-does-the-or-mark-means-when-running-ls-al-on-mac-os-x/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "业精于勤荒于嬉",
+    "author": {
+        "@type": "Person",
+        "name": "Kucci Hao",
+        "image": "http://localhost:2368/content/images/2015/08/11275054cdxdvmixxe5v6c-jpg.jpeg",
+        "url": "http://localhost:2368/author/kucci",
+        "sameAs": null,
+        "description": "曾梦想仗剑走天涯，看一看世间的繁华"
+    },
+    "headline": "what does the &quot;+&quot; or &quot;@&quot; mark(special mark) means when running &#x27;ls -al&#x27; on Mac OS X",
+    "url": "http://localhost:2368/-what-does-the-or-mark-means-when-running-ls-al-on-mac-os-x/",
+    "datePublished": "2015-08-25T19:55:03.160Z",
+    "dateModified": "2015-08-25T20:00:49.162Z",
+    "keywords": "macos",
+    "description": "In Mac OS X, run &#x27;ls -al&#x27; gives me something like this. drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="业精于勤荒于嬉" href="../rss/index.html">
+</head>
+<body class="post-template tag-macos nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">菜单</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">关闭</span>
+    </a>
+    <ul>
+            <li class="nav-" role="presentation"><a href="../">首页</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">订阅</a>
+</div>
+<span class="nav-cover"></span>
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">菜单</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-macos">
+
+        <header class="post-header">
+            <h1 class="post-title">what does the "+" or "@" mark means when running 'ls -al' on Mac OS X</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-08-26">2015年08月26日</time>  标签：<a href="../tag/macos/">macos</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>In Mac OS X, run 'ls -al' gives me something like this.</p>
+
+<pre><code>drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public
+drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites
+drwxrwxrwx   9 smcho  staff     306 Feb  2  2010 backup
+drwxr-xr-x@ 36 smcho  staff    1224 Sep  4 22:51 bin
+</code></pre>
+
+<p>What's the + or @ at the end of the first column means? <br>
+Is this unique to Mac, or common in UNIX? <br>
+<strong>ADDED</strong>
+After Michael Mrozek's answer, I ran 'ls -ale' to get the following.</p>
+
+<pre><code>drwx------+ 66 smcho  staff    2244 Aug 30 13:40 Library
+ 0: group:com.apple.sharepoint.group.3 allow search
+ 1: group:everyone deny delete
+drwxr-xr-x   3 smcho  staff     102 Sep  4 15:01 Mail
+drwx------+ 13 smcho  staff     442 Aug 28 17:55 Movies
+ 0: group:everyone deny delete
+drwx------+  6 smcho  staff     204 Jul  9 09:37 Music
+ 0: group:everyone deny delete
+drwx------+ 11 smcho  staff     374 Aug 28 16:55 Pictures
+ 0: group:everyone deny delete
+drwxr-xr-x   3 smcho  staff     102 Mar 18 15:43 Projects
+drwxrwxrwx+  4 smcho  staff     136 May  5 09:18 Public
+ 0: group:everyone deny delete
+drwxr-xr-x+  6 smcho  staff     204 Feb  1  2010 Sites
+ 0: group:everyone deny delete
+</code></pre>
+
+<p>What those appended messages mean? Why do I have them for some of the files? I don't remember doing anything particular for them.</p>
+
+<hr>
+
+<p>The <code>@</code> suffix is unique to Mac OS and it means the file has extended attributes. You can use the <code>xattr</code> command-line utility to view and modify them:</p>
+
+<pre><code>xattr --list filename
+xattr --set propname propvalue filename
+xattr --delete propname filename
+</code></pre>
+
+<p>The <code>+</code> suffix means the file has an access control list, and is common in any *nix that supports ACLs. Giving <code>ls</code> the <code>-e</code> flag will make it show the associated ACLs after the file, and <code>chmod</code> can be used to modify then. Most of this is from the <code>chmod</code> man page:</p>
+
+<p>You add an ACL with <code>chmod +a "type:name flag permission,..."</code>, and remove it with <code>chmod -a</code>. The argument to <code>chmod</code> is fairly complicated:</p>
+
+<ul>
+<li><strong>type</strong> is either <code>user</code> or <code>group</code>, to clarify if name is referring to a username or a group name. If name is unambiguous, you can omit the type</li>
+<li><strong>name</strong> is the username or group the ACL applies to</li>
+<li><strong>flag</strong> is allow if this ACL entry is granting a permission, or deny if it's denying a permission</li>
+<li><strong>permission</strong> is the actual permission being modified; you can list as many as you like, comma-separated
+<ul><li><strong>delete</strong> -- Allow the file/directory to be deleted</li>
+<li><strong>readattr</strong> -- Read basic attributes</li>
+<li><strong>writeattr</strong> -- Write basic attributes</li>
+<li><strong>readextattr</strong> -- Read extended attributes (using xattr, from above)</li>
+<li><strong>writeextattr</strong> -- Write extended attributes</li>
+<li><strong>readsecurity</strong> -- Read ACL info</li>
+<li><strong>writesecurity</strong> -- Write ACL info</li>
+<li><strong>chown</strong> -- Change owner</li>
+<li>Directory-specific permissions
+<ul><li><strong>list</strong> -- Show the files/folders in the directory</li>
+<li><strong>search</strong> -- Find a file/folder in the directory by name</li>
+<li><strong>add<em>file</em></strong> -- Create a new file in the directory</li>
+<li><strong>addsubdirectory</strong> -- Create a new directory in the directory</li>
+<li><strong>delete_child</strong> -- Remove a file/directory in the directory</li>
+<li>Inheritance-control
+<ul><li><strong>file<em>inherit</em></strong> -- ACLs on the directory are inherited by files</li>
+<li><strong>directoryinherit</strong> -- ACLs on the directory are inherited by subdirectories</li>
+<li><strong>limit<em>inherit</em></strong> -- Stops ACLs inherited by this directory from being inherited by subdirectories</li>
+<li><strong>onlyinherit</strong> -- Inherited by all newly created items but ignored</li></ul></li></ul></li>
+<li>File-specific permissions
+<ul><li><strong>read</strong> -- Open the file for reading</li>
+<li><strong>write</strong> -- Open the file for writing</li>
+<li><strong>append</strong> -- Open the file for appending</li>
+<li><strong>execute</strong> -- Run the file</li></ul></li></ul></li>
+</ul>
+
+<p>In your particular example, most of the ACL entries are <code>group:everyone deny delete</code>. That is, all users in the <code>everyone</code> group (which is naturally everyone) are denied the permission to delete the folder. I believe, although I can't find any documentation about it, that these are default ACLs to stop you from removing essential root folders -- somebody correct this if that's not the case. The only other entry is <code>group:com.apple.sharepoint.group.3</code> allow search, which allows Directory Services to search for files by name in the <code>/Library</code> folder</p>
+
+<p>整理自：
+<a href="http://unix.stackexchange.com/questions/1646/or-mark-after-running-ls-al">+ or @ mark after running 'ls -al' | Unix &amp; Linux Stack Exchange</a></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/kucci/" style="background-image: url(../content/images/2015/08/11275054cdxdvmixxe5v6c-jpg.jpeg)"><span class="hidden">Kucci Hao的头像</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/kucci/">Kucci Hao</a></h4>
+
+                    <p>曾梦想仗剑走天涯，看一看世间的繁华</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>分享此博文</h4>
+                <div class="bdsharebuttonbox"><a href="index.html#" class="bds_more" data-cmd="more"></a><a href="index.html#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="index.html#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="index.html#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="index.html#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">业精于勤荒于嬉</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a> &amp; <a href="http://www.ghostchina.com">GhostChina</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=13ba76be03"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=13ba76be03"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=13ba76be03"></script>
+
+</body>
